@@ -3,5 +3,9 @@
 @section('title', 'Homepage')
 
 @section('content')
-    @dump($comics);
+    <section >
+        <div class="container">
+            @dump($comics)
+        </div>
+    </section>
 @endsection 

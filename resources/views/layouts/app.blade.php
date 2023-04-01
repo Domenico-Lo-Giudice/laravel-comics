@@ -11,9 +11,14 @@
 
 </head>
 <body>
-    <h1>@yield('title')</h1>
+    
+    @include('partials._navbar') 
+    
 
     <main>
+        <section class="container">
+            <h1>@yield('title')</h1>
+        </section>
         @yield('content')
     </main>
 </body>
